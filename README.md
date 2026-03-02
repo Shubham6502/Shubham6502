@@ -88,8 +88,8 @@ https://github.com/Shubham6502/study_room
 ---
 
 ## 📫 Connect With Me
-- LinkedIn: (Add LinkedIn Link)
-- Email: (Add Professional Email)
+- LinkedIn: https://www.linkedin.com/in/shubhampatil20/
+- Email: shubhampatil6502@gmail.com
 
 ---
 
