@@ -8,7 +8,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=A78BFA&center=true&vCenter=true&width=640&lines=const+role+%3D+%22Full+Stack+Developer%22;const+stack+%3D+%5B%22MongoDB%22%2C+%22Express%22%2C+%22React%22%2C+%22Node%22%5D;const+status+%3D+%22Open+to+SWE+Opportunities+%F0%9F%9F%A2%22;while(true)+%7B+learn()%3B+build()%3B+ship()%3B+%7D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1500&color=A78BFA&center=true&vCenter=true&width=640&lines=Software+Engineer;Full+Stack+Developer;MCA+Student" alt="Typing SVG" />
 
 <br/><br/>
 
@@ -51,7 +51,9 @@ const shubham: Developer = {
 </td>
 <td width="48%" align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shubham6502&show_icons=true&hide_border=true&bg_color=0f0f1a&title_color=a78bfa&icon_color=a78bfa&text_color=e2e8f0&rank_icon=github&count_private=true" width="100%" />
+<a href="https://codolio.com/profile/shubham6502">
+  <img src="./dsa-card.svg" width="100%" alt="377+ Problems Solved — DSA Stats" />
+</a>
 
 </td>
 </tr>
@@ -99,7 +101,7 @@ const principles = {
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=java,javascript,typescript&theme=dark" />
+<img src="https://skillicons.dev/icons?i=java,javascript,cpp,php&theme=dark" />
 
 **Frontend**
 
@@ -111,7 +113,7 @@ const principles = {
 
 **Tools & Workflow**
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma,vercel&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel&theme=dark" />
 
 </div>
 
@@ -222,7 +224,8 @@ const principles = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shubham6502&layout=compact&hide_border=true&bg_color=0f0f1a&title_color=a78bfa&text_color=e2e8f0" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shubham6502&theme=2077" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shubham6502&theme=2077" />
 
 <br/>
 
