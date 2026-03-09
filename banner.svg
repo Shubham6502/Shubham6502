@@ -1,0 +1,68 @@
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a0a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d0d1f;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c4b5fd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818cf8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+
+  <!-- Decorative dots grid -->
+  <g opacity="0.08">
+    <circle cx="50" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="100" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="150" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="800" cy="170" r="2" fill="#a78bfa"/>
+    <circle cx="850" cy="170" r="2" fill="#a78bfa"/>
+    <circle cx="750" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="800" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="850" cy="30" r="2" fill="#a78bfa"/>
+    <circle cx="50" cy="170" r="2" fill="#a78bfa"/>
+    <circle cx="100" cy="170" r="2" fill="#a78bfa"/>
+  </g>
+
+  <!-- Glow orb left -->
+  <ellipse cx="160" cy="100" rx="120" ry="80" fill="#7c3aed" opacity="0.12"/>
+  <!-- Glow orb right -->
+  <ellipse cx="740" cy="100" rx="100" ry="70" fill="#4f46e5" opacity="0.10"/>
+
+  <!-- Top accent line -->
+  <rect x="60" y="42" width="60" height="2" rx="1" fill="#a78bfa" opacity="0.6"/>
+  <rect x="780" y="42" width="60" height="2" rx="1" fill="#818cf8" opacity="0.6"/>
+
+  <!-- Main name -->
+  <text x="450" y="105" text-anchor="middle"
+        font-family="'Segoe UI', 'Arial', sans-serif"
+        font-size="54" font-weight="800" letter-spacing="2"
+        fill="url(#textgrad)" filter="url(#glow)">Shubham Patil</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="142" text-anchor="middle"
+        font-family="'Segoe UI', 'Arial', sans-serif"
+        font-size="17" font-weight="400" letter-spacing="3"
+        fill="#94a3b8">SOFTWARE ENGINEER  &amp;  FULL-STACK DEVELOPER</text>
+
+  <!-- Bottom accent line -->
+  <rect x="340" y="158" width="220" height="1.5" rx="1" fill="#a78bfa" opacity="0.35"/>
+
+  <!-- Corner brackets -->
+  <text x="38" y="58" font-family="monospace" font-size="22" fill="#a78bfa" opacity="0.4">{</text>
+  <text x="852" y="58" font-family="monospace" font-size="22" fill="#a78bfa" opacity="0.4">}</text>
+  <text x="38" y="172" font-family="monospace" font-size="14" fill="#6366f1" opacity="0.3">// Pune, IN</text>
+  <text x="790" y="172" font-family="monospace" font-size="14" fill="#6366f1" opacity="0.3">MCA 2025</text>
+</svg>
