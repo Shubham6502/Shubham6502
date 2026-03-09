@@ -1,96 +1,151 @@
-<h1 align="center">Hi 👋, I'm Shubham Patil</h1>
-<h3 align="center">MCA Student | Aspiring Software Engineer | Full Stack Developer</h3>
+<h1 align="center">Shubham Patil</h1>
+<h3 align="center">Software Engineer in Progress | Full Stack Developer | Problem Solver</h3>
+
+<p align="center">
+🚀 Portfolio: <a href="https://shubham-patil-portfolio.vercel.app/">shubham-patil-portfolio</a>
+</p>
+
+<p align="center">
+Building systems • Solving problems • Shipping projects
+</p>
 
 ---
 
-## 🚀 About Me
-- 🎓 MCA Student at D.Y. Patil College, Pune
-- 💻 Passionate about Software Development and Problem Solving
-- 🌱 Currently learning **Advanced MERN Stack & Data Structures**
-- 🎯 Target Role: **Software Engineer (Backend / Full Stack)**
-- 🔥 Building real-world applications to solve student career problems
+# 👨‍💻 About Me
+
+🎓 MCA Student — Dr.D.Y. Patil School Of MCA, Pune  
+💡 Passionate about **building scalable software and solving real-world problems**  
+⚡ Focused on **Backend Engineering, System Design, and Full Stack Development**  
+
+Currently focused on:
+
+- Advanced **MERN Stack Development**
+- **Data Structures & Algorithms**
+- Building **production-style engineering projects**
+- Preparing for **Software Engineer roles**
+
+I enjoy turning ideas into **real products that people can actually use.**
 
 ---
 
-## 🛠️ Tech Stack
+# 🧠 Engineering Philosophy
 
-### 👨‍💻 Programming Languages
+- Write **clean and maintainable code**
+- Build **real-world projects instead of tutorial projects**
+- Focus on **problem solving and system thinking**
+- Improve **every single day**
+
+---
+
+# 🛠 Tech Stack
+
+### Programming
 - Java
 - JavaScript
 
-### 🌐 Web Development
+### Frontend
 - React.js
+- HTML5
+- CSS3
+
+### Backend
 - Node.js
 - Express.js
-- HTML5, CSS3
+- REST APIs
 
-### 🗄️ Databases
+### Databases
 - MongoDB
 - MySQL
 
-### ⚙️ Tools & Technologies
-- Git & GitHub
-- REST APIs
+### Tools
+- Git
+- GitHub
 - Postman
 - VS Code
 
 ---
 
-## ⭐ Featured Projects
+# 🚀 Featured Projects
 
-### 🚀 Career Compass (Flagship Project)
-A career guidance platform that generates daily learning tasks based on user domain and duration.
+## Career Compass — Career Guidance Platform
 
-**Key Features**
-- User Authentication
-- Daily Task Tracking
-- Streak System
-- Leaderboard
-- Job Application Tracker
+A platform designed to help students stay consistent in learning by generating **structured daily tasks based on domain and learning duration.**
 
-🔗 Project Repository:  
+Features:
+
+• Domain-based learning roadmap  
+• Daily task generation  
+• Streak tracking system  
+• Leaderboards for motivation  
+• Job application tracker  
+
+Repository  
 https://github.com/Shubham6502/CareerCompas
 
 ---
 
-### 📊 Jwellery E-commerce
+## Jewellery E-commerce Platform
 
-🔗 Repository:  
+Full-stack e-commerce platform built to simulate real online store architecture.
+
+Features:
+
+• Product listing  
+• Shopping interface  
+• Responsive UI  
+• Backend integration  
+
+Repository  
 https://github.com/Shubham6502/Jwellery-Shop
 
 ---
 
-### 🧠 Study Room Platform
-Collaborative learning environment for students.
+## Study Room Platform
 
-🔗 Repository:  
+A collaborative learning environment where students can interact and study together.
+
+Features:
+
+• Collaborative learning rooms  
+• Structured study environment  
+• Student productivity features  
+
+Repository  
 https://github.com/Shubham6502/study_room
 
 ---
 
-## 📈 GitHub Stats
+# 📈 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Shubham6502&show_icons=true&theme=tokyonight" />
+<img src="https://github-readme-stats.vercel.app/api?username=Shubham6502&show_icons=true&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shubham6502&theme=tokyonight" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shubham6502&theme=tokyonight"/>
 </p>
 
 ---
 
-## 🧩 Currently Working On
-- Improving Career Compass Platform
-- Data Structures & Algorithms Practice
-- Backend Architecture & API Design
+# 🧩 Currently Working On
+
+• Scaling **Career Compass** into a production-level application  
+• Improving **DSA problem solving skills**  
+• Learning **backend architecture and scalable APIs**  
+• Building **portfolio-level engineering projects**
 
 ---
 
-## 📫 Connect With Me
-- LinkedIn: https://www.linkedin.com/in/shubhampatil20/
-- Email: shubhampatil6502@gmail.com
+# 📫 Connect With Me
+
+LinkedIn  
+https://www.linkedin.com/in/shubhampatil20/
+
+Email  
+shubhampatil6502@gmail.com
 
 ---
 
-⭐ *Always learning, building, and improving every day.*
+<p align="center">
+⭐ Always learning. Always building.
+</p>
