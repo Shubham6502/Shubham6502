@@ -1,0 +1,62 @@
+<svg width="380" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a0a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a78bfa" />
+      <stop offset="100%" style="stop-color:#818cf8" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card background -->
+  <rect width="380" height="200" rx="14" fill="url(#cardbg)" />
+  <!-- Border -->
+  <rect width="380" height="200" rx="14" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="380" height="3" rx="2" fill="url(#accent)" />
+
+  <!-- Icon area -->
+  <circle cx="36" cy="42" r="18" fill="#a78bfa" opacity="0.15"/>
+  <text x="36" y="48" text-anchor="middle" font-size="18">🧩</text>
+
+  <!-- Title -->
+  <text x="62" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#a78bfa" letter-spacing="1">DSA &amp; PROBLEM SOLVING</text>
+  <text x="62" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Codolio · LeetCode · GeeksforGeeks</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="68" x2="360" y2="68" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Big stat -->
+  <text x="190" y="112" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="800" fill="url(#accent)" filter="url(#glow)">377+</text>
+  <text x="190" y="132" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8" letter-spacing="2">PROBLEMS SOLVED</text>
+
+  <!-- Divider -->
+  <line x1="20" y1="148" x2="360" y2="148" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Bottom stats row -->
+  <!-- Easy -->
+  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#4ade80">Easy</text>
+  <text x="75" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
+
+  <!-- Divider -->
+  <line x1="152" y1="155" x2="152" y2="192" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Medium -->
+  <text x="190" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#f59e0b">Medium</text>
+  <text x="190" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
+
+  <!-- Divider -->
+  <line x1="228" y1="155" x2="228" y2="192" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Hard -->
+  <text x="305" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#f87171">Hard</text>
+  <text x="305" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
+
+</svg>
