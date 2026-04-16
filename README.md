@@ -48,7 +48,7 @@ const shubham = {
 
 <div align="center">
 
-|  🥇 Gold Medal Hackathon  |  💻 377+ DSA Problems  |  🚀 12+ REST APIs  |  🎓 CGPA 9.03 / 10  |
+|  🥇 Gold Medal Hackathon  |  💻 400+ DSA Problems  |  🚀 12+ REST APIs  |  🎓 CGPA 9.03 / 10  |
 |:---:|:---:|:---:|:---:|
 
 </div>
