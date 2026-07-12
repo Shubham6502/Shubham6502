@@ -1,28 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0f1c,50:1a1a3e,100:0a0a1a&height=140&section=header&text=Shubham%20Patil&fontSize=50&fontColor=c9a94d&fontAlignY=40&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20DSA%20Practitioner&descAlignY=60&descColor=9090b0&animation=fadeIn&fontStyle=bold"/>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=17&pause=1000&color=C9A94D&center=true&vCenter=true&width=700&lines=🚀+Building+Production-Grade+Full-Stack+Apps;⚙️+MERN+Stack+%7C+REST+APIs+%7C+System+Design;🧠+377%2B+DSA+Problems+Solved+%26+Counting;🟢+Open+to+SWE+Opportunities)](https://git.io/typing-svg)
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubhampatil20/)&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhampatil6502@gmail.com)&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shubham-patil-portfolio.vercel.app/)&nbsp;
-[![Live Project](https://img.shields.io/badge/CareerCompass-c9a94d?style=for-the-badge&logo=vercel&logoColor=black)](https://career-compas-tnoo.vercel.app)&nbsp;
-[![DSA](https://img.shields.io/badge/DSA%20Profile-1a1a2e?style=for-the-badge&logo=leetcode&logoColor=c9a94d)](https://codolio.com/profile/shubham6502)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Shubham6502&color=c9a94d&style=for-the-badge&label=PROFILE+VIEWS)&nbsp;
-![Open to Work](https://img.shields.io/badge/🟢_STATUS-Open%20to%20Work-0d1117?style=for-the-badge)
-
-</div>
-
----
-
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Shubham Patil — Software Engineer" src="./assets/dark.svg" width="100%">
+</picture>
 ## `$ whoami`
 
 ```javascript
