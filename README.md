@@ -167,13 +167,13 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
-│                     CURRENT FOCUS                         │
-├──────────────────────────────────────────────────────────┤
-│  ▶  Actively interviewing for SWE / Full-Stack roles      │
-│  ▶  Deploying CareerCompass to AWS (EC2 / S3)             │
-│  ▶  System design fundamentals — HLD / LLD                │
-│  ▶  DSA revision — Arrays · Trees · Graphs · DP           │
-│  ◉  Completing MCA at Dr. D.Y. Patil School of MCA        │
+│                     CURRENT FOCUS                        │
+├──────────────────────────────────────────────────────────┤ 
+│  ▶  Actively interviewing for SWE / Full-Stack roles     |
+│  ▶  Deploying CareerCompass to AWS (EC2 / S3)            │
+│  ▶  System design fundamentals — HLD / LLD               │
+│  ▶  DSA revision — Arrays · Trees · Graphs · DP          │
+│  ◉  Completing MCA at Dr. D.Y. Patil School of MCA       │
 └──────────────────────────────────────────────────────────┘
 ```
 
