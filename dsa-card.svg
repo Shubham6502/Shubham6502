@@ -1,62 +1,74 @@
-<svg width="380" height="200" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 920 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DSA and problem solving snapshot">
   <defs>
-    <linearGradient id="cardbg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a0a2e;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0f0f1a;stop-opacity:1" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1220" />
+      <stop offset="100%" stop-color="#111827" />
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#a78bfa" />
-      <stop offset="100%" style="stop-color:#818cf8" />
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#22C55E" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="accentSoft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.28" />
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0.12" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
-  <!-- Card background -->
-  <rect width="380" height="200" rx="14" fill="url(#cardbg)" />
-  <!-- Border -->
-  <rect width="380" height="200" rx="14" fill="none" stroke="#a78bfa" stroke-width="1" opacity="0.3"/>
+  <rect width="920" height="320" rx="28" fill="url(#bg)" />
+  <rect x="1.5" y="1.5" width="917" height="317" rx="26" fill="none" stroke="url(#accent)" stroke-opacity="0.35" />
 
-  <!-- Top accent bar -->
-  <rect x="0" y="0" width="380" height="3" rx="2" fill="url(#accent)" />
+  <circle cx="120" cy="70" r="120" fill="#38BDF8" fill-opacity="0.08" filter="url(#glow)" />
+  <circle cx="820" cy="250" r="140" fill="#22C55E" fill-opacity="0.08" filter="url(#glow)" />
+  <path d="M52 244 C 160 176, 258 236, 350 170 S 562 130, 672 196 S 806 240, 868 176" fill="none" stroke="url(#accent)" stroke-opacity="0.12" stroke-width="2.2" />
 
-  <!-- Icon area -->
-  <circle cx="36" cy="42" r="18" fill="#a78bfa" opacity="0.15"/>
-  <text x="36" y="48" text-anchor="middle" font-size="18">🧩</text>
+  <rect x="28" y="24" width="864" height="272" rx="22" fill="white" fill-opacity="0.02" stroke="white" stroke-opacity="0.04" />
 
-  <!-- Title -->
-  <text x="62" y="36" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#a78bfa" letter-spacing="1">DSA &amp; PROBLEM SOLVING</text>
-  <text x="62" y="52" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Codolio · LeetCode · GeeksforGeeks</text>
+  <rect x="48" y="48" width="162" height="34" rx="17" fill="url(#accentSoft)" />
+  <text x="64" y="70" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#BAE6FD">DSA SNAPSHOT</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="68" x2="360" y2="68" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+  <text x="48" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#F8FAFC">Problem solving.</text>
+  <text x="48" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Codolio and LeetCode progress, aligned to the current profile numbers.</text>
 
-  <!-- Big stat -->
-  <text x="190" y="112" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="46" font-weight="800" fill="url(#accent)" filter="url(#glow)">377+</text>
-  <text x="190" y="132" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#94a3b8" letter-spacing="2">PROBLEMS SOLVED</text>
+  <text x="48" y="212" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#accent)" filter="url(#glow)">425</text>
+  <text x="50" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#CBD5E1">QUESTIONS SOLVED</text>
 
-  <!-- Divider -->
-  <line x1="20" y1="148" x2="360" y2="148" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+  <rect x="48" y="256" width="202" height="28" rx="14" fill="white" fill-opacity="0.05" />
+  <text x="62" y="274" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#E2E8F0">425+ solved across DSA and problem solving</text>
 
-  <!-- Bottom stats row -->
-  <!-- Easy -->
-  <text x="75" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#4ade80">Easy</text>
-  <text x="75" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
+  <g>
+    <!-- <rect x="410" y="58" width="176" height="90" rx="18" fill="#0F172A" stroke="#1F2937" /> -->
+    <!-- <text x="430" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#7DD3FC">ACTIVE DAYS</text>
+    <text x="430" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">232</text> -->
+    <text x="632" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#5EEAD4">LEETCODE MAX</text>
+    <text x="632" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">1547</text>
+  </g>
 
-  <!-- Divider -->
-  <line x1="152" y1="155" x2="152" y2="192" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+  <g>
+    <rect x="612" y="58" width="176" height="90" rx="18" fill="#0F172A" stroke="#1F2937" />
+    <text x="632" y="86" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#5EEAD4">ACTIVE DAYS</text>
+    <text x="632" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">232</text>
+  </g>
 
-  <!-- Medium -->
-  <text x="190" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#f59e0b">Medium</text>
-  <text x="190" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
+  <g>
+    <!-- <rect x="410" y="174" width="176" height="90" rx="18" fill="#0F172A" stroke="#1F2937" /> -->
+    <!-- <text x="430" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#86EFAC">CONTESTS</text>
+    <text x="430" y="238" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#F8FAFC">7</text> -->
+  </g>
 
-  <!-- Divider -->
-  <line x1="228" y1="155" x2="228" y2="192" stroke="#a78bfa" stroke-width="0.5" opacity="0.2"/>
+  <g>
+    <rect x="612" y="174" width="176" height="90" rx="18" fill="#0F172A" stroke="#1F2937" />
+    <text x="632" y="202" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2" fill="#FBBF24">MORE HIGHLIGHTS</text>
+    <text x="632" y="232" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#F8FAFC">CodeChef 1101</text>
+    <text x="632" y="250" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">AtCoder max 46</text>
+  </g>
 
-  <!-- Hard -->
-  <text x="305" y="168" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#f87171">Hard</text>
-  <text x="305" y="185" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#94a3b8">Solved</text>
-
+  <text x="828" y="292" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Consistent execution over flashy noise.</text>
 </svg>
