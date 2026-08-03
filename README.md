@@ -19,7 +19,7 @@
 
 <br>
 
-## `$ whoami`
+## `whoami`
 
 Backend-focused full-stack developer finishing my MCA, building production-style systems on the MERN stack and shipping REST APIs that actually see traffic. I care more about clean architecture and working software than buzzwords — 400+ solved DSA problems is just the training log.
 
@@ -34,7 +34,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ ls ./tech-stack`
+## `Tech-stack`
 
 <div align="center">
 
@@ -64,7 +64,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ cat ./projects/featured`
+## `Projects/featured`
 
 <table>
 <tr>
@@ -121,7 +121,17 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ git log --stats`
+## `Coding snapshot`
+
+<div align="center">
+
+<img src="./dsa-card.svg" alt="DSA and problem solving snapshot" width="100%" />
+
+</div>
+
+<br>
+
+## `Stats`
 
 <div align="center">
 
@@ -140,7 +150,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ cat ./achievements`
+## `Achievements`
 
 | | Achievement | Details |
 |:---:|:---|:---|
@@ -152,7 +162,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ cat ./certifications`
+## `Certifications`
 
 | Certification | Issuer | Year |
 |:---|:---|:---:|
@@ -163,7 +173,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ tail -f ./current-focus`
+## `Current-focus`
 
 ```text
 ┌──────────────────────────────────────────────────────────┐
@@ -179,7 +189,7 @@ Backend-focused full-stack developer finishing my MCA, building production-style
 
 <br>
 
-## `$ contact --open`
+## `Contact --open`
 
 <div align="center">
 
